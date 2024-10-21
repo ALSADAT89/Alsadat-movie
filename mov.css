@@ -1,37 +1,160 @@
-nav {
-    background-color: green;
-    padding: 10px;
-    position: sticky;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  #searchInput {
-    margin-left: auto;
-    padding: 5px;
-  }
-  body {
-    background-color: #f2f2f2;
-    font-family: Arial, sans-serif;
-  }
-  
-  .container {
-    width: 80%;
-    margin: 40px auto;
-    text-align: center;
-  }
-  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: rgb(22, 24, 20);
+  color: aliceblue;
+}
+.navigation{
+  background-color: green;
+  height: 100px;
+  width: 100%;
+  position: fixed; 
+}
+.navigation ul li a:hover{
+  color: red;
+  background-color: aliceblue;
+}
+.container h1{
+  margin-top: 100px;
+}
+nav ul{
+text-decoration: none;
+list-style: none;
+background-color: green;
+display: inline-block;
+
+}
+nav ul li{
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  font-size: 25px;
+  background-color: green;
+}
+nav ul li a{
+  background-color: green;
+  text-decoration: none;
+  display: inline-block;
+}
+.searchInput{
+  background-color: rgb(0, 0, 0);
+  margin-left: 40%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  nav-right: 100px;
+}
+body{
+  text-align: center;
+}
+.container{
+  font-size: 25px;
+}
+h1{
+  margin: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:40px
+
+}
+
+body ul li{
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+} 
+
+.discription{
+display: flex;
+}
+.discription img{
+  width: 350px;
+  height: 350px;
+  margin-top: 10px;
+}
+.boxmain{
+padding: 70px;
+display: flex;
+margin: 0%;
+padding-top: 0%;
+
+}
+
+.menue{
+background-color: rgb(196, 26, 26);
+width: 250px;
+padding: 50px;
+margin-top: 10px;
+}
+.trailors{
+  display: inline-block;
+  margin: 0;
+}
+.trailors h1{
+  margin: 0;
+}
+.number{
+background-color: antiquewhite;
+width: 20px;
+margin-left: 45%; 
+color: red;
+border: 1px solid black;
+border-radius: 50%;
+} 
+p{
+  margin: 10px;
+}
+footer{
+  background-color: green;
+  height: 300px;
+  position: sticky;
+}
+
+.f-links{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: sticky;
+  background-color: green;
+}
+.f-links ul{
+  background-color: green;
+}
+.f-links div{
+  background-color: green;
+}
+.f-links h1{
+  background-color: green;
+}
+
+.f-links ul li a{
+  background-color: green;
+}
+ .f-links ul li{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+
+}
+.button{
+  background-color: green;
+  margin-top: 30px;
+  justify-content: left;
+  display: flex;
+}
+.button label{
+  background-color: green;
+}
+.inputs{
+  background-color: aliceblue;
+}
+.button button{
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-left: 10px;
+}
